@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.illinois.cs.cs125.finalmp7">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Appitizers" />
+        <activity android:name=".Breakfast" />
+        <activity android:name=".Lunch" />
+        <activity android:name=".Dinner" />
+        <activity android:name=".Dessert" />
+        <activity android:name=".AppRec1" />
+        <activity android:name=".AppRec2" />
+        <activity android:name=".BFRec1" />
+        <activity android:name=".BFRec2" />
+        <activity android:name=".DesRec1" />
+        <activity android:name=".DesRec2" />
+        <activity android:name=".DinRec1" />
+        <activity android:name=".DinRec2" />
+        <activity android:name=".LunchRec1" />
+        <activity android:name=".LunchRec2" />
+        <activity android:name=".API"></activity>
+
+    </application>
+
+</manifest>
